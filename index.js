@@ -1,4 +1,4 @@
-import { createApukoneClient } from '@reititin/client';
+import { ReititinClient } from '@reititin/client';
 import ollama from 'ollama';
 // Your Agent's ID
 const AGENT_ID = "YOUR_AGENT_ID";
@@ -7,4 +7,4 @@ const processMessage = async (data) => {
   const { message } = await ollama.chat({ model: OLLAMA_MODEL, messages: data });
   return message;
 };
-createApukoneClient({ agentId: AGENT_ID, onMessage: processMessage });
+ReititinClient({ agentId: AGENT_ID, onMessage: processMessage });
