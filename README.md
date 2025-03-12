@@ -26,7 +26,8 @@ This is an example of connecting your self-hosted LLM to [Reititin](https://reit
 
 If you are comfortable with Google Cloud Platform and familiar with `gcloud` and have an account and project set up, this single command will deploy a Compute instance with Reititin Client running:
 
-```gcloud compute instances create reititin-client \
+```
+gcloud compute instances create reititin-client \
   --machine-type=e2-standard-4 \
   --image-family=debian-11 \
   --image-project=debian-cloud \
@@ -40,6 +41,7 @@ If you are comfortable with Google Cloud Platform and familiar with `gcloud` and
     npm install
     npm install -g pm2
     AGENT_ID="YOUR_AGENT_ID" OLLAMA_MODEL="YOUR_OLLAMA_MODEL" pm2 start index.js --name reititin
-    pm2 save'``` 
+    pm2 save'
+``` 
 
 Replace `YOUR_AGENT_ID` and `YOUR_OLLAMA_MODEL` with the agent id from Reititin UI and the model you would like to run with Ollama.
