@@ -4,10 +4,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "AGENT_ID='YOUR_AGENT_ID' OLLAMA_MODEL='YOUR_OLLAMA_MODEL' node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@reititin/client": "0.0.6",
+    "dotenv": "^16.4.7",
     "ollama": "^0.5.14"
   }
 }

@@ -14,10 +14,9 @@ This is an example of connecting your self-hosted LLM to [Reititin](https://reit
 
 5. Install dependencies: `npm install`
 
-6. You have a couple of options to run the script and replace the two variables that need to be changed:
+6. Rename `.env.example` file to `.env` and replace the values of the two properties inside the file.
 
-- 1. Replace `YOUR_AGENT_ID` and `YOUR_OLLAMA_MODEL` from `package.json` start-script and run `npm run start`
-- 2. Create a `.env` -file with `AGENT_ID` and `OLLAMA_MODEL` propertied with your defined values.
-- 3. Pass the variables directly with node -script: `AGENT_ID='YOUR_AGENT_ID' OLLAMA_MODEL='YOUR_OLLAMA_MODEL' node index.js`
+- Replace `YOUR_AGENT_ID` with the agent id you find from Reititin UI after creating a new agent.
+- Optional: Replace `Qwen2.5:3b` with a model you would like to use with Ollama.
 
-7. The client should now be running and you should see `Waiting for messages.` in the terminal.
+7. Run `index.js` with either `npm run start` or `node index.js`. You should see `Waiting for messages.` in the terminal if the script is running.
