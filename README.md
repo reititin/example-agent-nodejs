@@ -20,3 +20,9 @@ This is an example of connecting your self-hosted LLM to [Reititin](https://reit
 - Optional: Replace `Qwen2.5:3b` with a model you would like to use with Ollama.
 
 7. Run `index.js` with either `npm run start` or `node index.js`. You should see `Waiting for messages.` in the terminal if the script is running.
+
+8. Now, when you send a message from Reititin using your connected agent id, your agent should receive the message, process it using Ollama, and send the response back to the user who originally sent the message.
+
+## Bonus Tip
+
+Run the script with `pm2 start index.js --name reititin-client` after installing `npm i pm2 -g`. pm2 is a process manager for nodejs which helps keeping the script running after closing the terminal.
