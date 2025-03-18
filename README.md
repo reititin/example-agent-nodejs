@@ -2,9 +2,13 @@
 
 This is an example of connecting your self-hosted LLM to [Reititin](https://reititin.com).
 
+## Requirements
+- [Ollama](https://ollama.com/download)
+- [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
 ## How to run it?
 
-1. Install Ollama from the official website at: [https://ollama.com/download](https://ollama.com/download). Ollama is a tool designed to simplify the process of running open-source large language models (LLMs) directly on your computer.
+1. Install Ollama from the official website at: [https://ollama.com/download](https://ollama.com/download). Ollama is a tool designed to simplify the process of running open-source large language models (LLMs) directly on your computer. Make sure Ollama is running and your model is ready before proceeding to next steps. Ollama website has guides on how to use it, but you will need to run `ollama pull YOUR_MODEL_NAME` at least.
 
 2. Install the latest version of Node.js and NPM: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
