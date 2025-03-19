@@ -7,4 +7,4 @@ const processMessage = async (data) => {
   return message;
 };
 
-ReititinClient({ agentId: process.env.AGENT_ID, onMessage: processMessage });
+ReititinClient({ token: process.env.TOKEN, onMessage: processMessage });
