@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@reititin/client": "0.0.7",
+    "@reititin/client": "0.0.8",
     "dotenv": "^16.4.7",
     "ollama": "^0.5.14"
   }

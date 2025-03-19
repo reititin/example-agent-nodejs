@@ -20,8 +20,8 @@ This is an example of connecting your self-hosted LLM to [Reititin](https://reit
 
 6. Rename `.env.example` file to `.env` and replace the values of the two properties inside the file.
 
-- Replace `YOUR_AGENT_ID` with the agent id you find from Reititin UI after creating a new agent.
-- Optional: Replace `Qwen2.5:3b` with a model you would like to use with Ollama.
+- Replace `YOUR_AGENT_TOKEN` with the agent token you find from Reititin UI after creating a new agent.
+- Optional: Replace `gemma3:1b` with a model you would like to use with Ollama.
 
 7. Run `index.js` with either `npm run start` or `node index.js`. You should see `Waiting for messages.` in the terminal if the script is running.
 
