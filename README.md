@@ -4,7 +4,7 @@ This is an example of connecting your self-hosted LLM to [Reititin](https://reit
 
 ## Requirements
 - [Ollama](https://ollama.com/download)
-- [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [Node.js and NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ## How to run it?
 
