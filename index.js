@@ -7,4 +7,4 @@ const processMessage = async (data) => {
   return message;
 };
 
-ReititinClient({ token: process.env.TOKEN, onMessage: processMessage });
+ReititinClient({host: process.env.HOST, token: process.env.TOKEN, onMessage: processMessage });
